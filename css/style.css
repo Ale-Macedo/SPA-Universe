@@ -1,0 +1,146 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --ff-primary: 'Roboto', sans-serif;
+
+
+}
+
+body{
+  font-family: var(--ff-primary);
+  height: 100vh;
+}
+
+body{
+  
+  background: url(/imgs/mountains-universe-01.png) no-repeat ;
+  background-size: cover;
+}
+
+body nav a.home,
+body nav a.universe,
+body nav a.explore{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+}
+
+body.universe { 
+  background: url(/imgs/mountains-universe-2.png) no-repeat ;
+  background-size: cover;
+}
+
+body.explore{
+  background: url(/imgs/mountains-universe-3.png) no-repeat ;
+  background-size: cover;
+}
+
+#logo{
+  position: fixed;
+  top: 4rem;
+  left: 7.5rem;
+}
+
+nav{
+  /* border: 1px solid rgb(247, 0, 255); */
+  /* border: 1px solid red; */
+  padding-top: 4rem;
+  height: 12.2rem;
+
+  /* padding: 4rem 10rem 0 10rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+
+}
+
+nav a{
+  /* border: 1px solid red; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.17rem;
+  /* font-size: 2rem; */
+  line-height: 2.2rem;
+  text-decoration: none;
+  color: #C4C4CC;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+}
+
+
+#app{
+/* height: 85vh; */
+  /* margin-bottom: 29rem; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#app section{
+  margin-top: 17rem;
+  width: 65rem;
+
+
+  /*padding-bottom: 29rem; */
+  /* border: 1px solid rgb(247, 0, 255); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+#app section.home h1{
+  color: #E1E1E6;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+}
+#app section.home a{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 32px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+#app section.home a:hover{
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  color: #02799D;
+}
+
+#app section h1{
+
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  color: #E1E1E6;
+}
+
+#app section p{
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  color: #E1E1E6;
+  
+}
